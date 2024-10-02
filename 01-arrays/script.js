@@ -16,7 +16,7 @@ const fourthTeacher = null;
 
 let index = teachers.indexOf('Carlo')
 if (index !== -1) {
-    fruits.splice(index,1)
+    teachers[index] = 'patrick';
 }
 console.log(teachers);
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
